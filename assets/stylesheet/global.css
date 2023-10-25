@@ -1,0 +1,28 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 100%;
+    /* overflow-x: hidden; */
+}
+li{
+    list-style-type: none;
+}
+a,a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+@font-face {
+    font-family: Quattrocento;
+    src: url(../font/Quattrocento-Bold.ttf);
+}
+h1,h2,h3{
+    font-family: Quattrocento;
+}
